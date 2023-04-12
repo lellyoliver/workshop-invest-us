@@ -1,0 +1,42 @@
+/**
+* Edição das propriedades do estilos
+* versao 1.0
+* Lelly Oliver
+* github.com/lellyoliver
+**/
+
+.w-60 {
+    width: 60%;
+}
+/**btn**/
+.btn-custom {
+    background: #174363;
+    border: #009AD0 2px solid;
+    height: 60px;
+    width: 40%;
+    color: white;
+    font-weight: 600;
+    box-shadow: 1px 1px 20px 2px #03a1d875;
+}
+
+/**bloco main**/
+.bg-bloco-main{
+    background-image: url(../img/bg_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+}
+
+/**Bloco-02**/
+.bg-bloco-2{
+    background-image: url(../img/bg_02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.m-custom {
+    margin-top: -6px;
+}
