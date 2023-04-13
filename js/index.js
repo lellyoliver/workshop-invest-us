@@ -18,7 +18,7 @@ submit.addEventListener('submit', (e) => {
 
     Email.send({
         SecureToken: "c59b4ad6-bebc-492e-84a9-9a2a53e9b6c7",
-        To: "investnowus@gmail.com",
+        To: ["vinicius.rotadolucro@gmail.com", "Claudioeusebio@hotmail.com"],
         From: "investnowus@gmail.com",
         Subject: "Teste",
         Body: textBody
