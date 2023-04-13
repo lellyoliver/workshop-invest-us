@@ -5,10 +5,78 @@
 * github.com/lellyoliver
 **/
 
+
+/*=============================================
+=      Definições de Textos e outros          =
+=============================================*/
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.blue-light {
+    color: #57B1D0;
+}
+
+.blu-medium {
+    color: #174363;
+}
+
+.blue-dark {
+    color: #0E1A2B;
+}
+
+.gray {
+    color: #444444;
+}
+
+.gray-light {
+    color: #5A5A5A;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*=============================================
+=            Classe de Width Padrão            =
+=============================================*/
+
+.w-40 {
+    width: 40%;
+}
+
 .w-60 {
     width: 60%;
 }
-/**btn**/
+
+
+/*=============================================
+=            Divisor            =
+=============================================*/
+span.divisor {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+/*=============================================
+=            Buttons            =
+=============================================*/
+
 .btn-custom {
     background: #174363;
     border: #009AD0 2px solid;
@@ -18,7 +86,9 @@
     color: white;
     font-weight: 600;
     box-shadow: 1px 1px 20px 2px #03a1d875;
+    background-attachment: fixed;
 }
+
 .btn-custom:hover {
     background: #226697;
     border: #009AD0 2px solid;
@@ -28,10 +98,14 @@
     color: white;
     font-weight: 600;
     box-shadow: 1px 1px 20px 2px #03a1d875;
+    background-attachment: fixed;
 }
 
-/**bloco main**/
-.bloco-main{
+/*=============================================
+=            Bloco 1            =
+=============================================*/
+
+.bloco-main {
     background-image: url(../img/bg_01.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,8 +113,12 @@
     height: 100vh;
 }
 
-/**Bloco-02**/
-.bloco-2{
+
+/*=============================================
+=                  Bloco 2            =
+=============================================*/
+
+.bloco-2 {
     background-image: url(../img/bg_02.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,46 +130,182 @@
     margin-top: -6px;
 }
 
-/**Bloco-03**/
+/*=============================================
+=                  Bloco 3           =
+=============================================*/
+
 .bloco-3 {
-    height: 100vh;
     background: #0E1A2B;
-}
-.margin-bloco-5 {
-    padding-top: 120px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
 }
 
-/**Bloco-04**/
-.bloco-4{
+/*=============================================
+=                  Bloco 4            =
+=============================================*/
+.bloco-4 {
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: #174363;
-}
-.margin-custombloco-4 {
-    margin-bottom: -24px;
+    height: 100vh;
 }
 
-/**bloco 5**/
-.bloco-5 {
-    height: 60vh;
+h1.text-custom-bloco-4 {
+    text-shadow: 0px 0px 14px #1c99c7;
+    font-size: 5rem;
 }
+
+/*=============================================
+=                  Bloco 5            =
+=============================================*/
+
+.bloco-5 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .padding-blococustom-5 {
     padding-top: 60px;
 }
 
-/**bloco 6**/
-.bloco-6{
-    height: 100vh;
+/*=============================================
+=                  Bloco 6            =
+=============================================*/
+
+.bloco-6 {
+    padding-bottom: 120px;
 }
 
-/**bloco-7**/
-.bloco-7{
+/*=============================================
+=                  Bloco 7            =
+=============================================*/
+
+.bloco-7 {
     height: 20vh;
 }
 
-/**************/
-.videoyt{
-    width: 560px;
-    height: 315px;
+.img-partners {
+    display: flex;
+    flex-direction: unset;
 }
 
 
-@media screen {max900px}
+/*=============================================
+=            Bloco 8            =
+=============================================*/
+
+img.img-bloco-8 {
+    width: 60%;
+}
+.bloco-8 {
+    padding-top:80px;
+    background: #0e1a2b;
+    margin-bottom: -160px;
+}
+
+/*=============================================
+=                  video            =
+=============================================*/
+
+
+/*=============================================
+=            Mobile Display            =
+=============================================*/
+@media only screen and (max-width: 600px) {
+
+    /*=============================================
+    =            gerais            =
+    =============================================*/
+
+
+    iframe.videoyt {
+        width: 100%;
+    }
+
+    .w-40 {
+        width: 100% !important;
+    }
+
+    .w-50 {
+        width: 100% !important;
+    }
+
+    .w-60 {
+        width: 100% !important;
+    }
+
+    .h-100 {
+        height: 100% !important;
+    }
+
+    .btn-custom {
+        width: 100% !important;
+    }
+
+    .btn-custom:hover {
+        width: 100% !important;
+    }
+
+    /*=============================================
+    =            bloco             =
+    =============================================*/
+
+
+    .bloco-main {
+        height: 100% !important;
+        padding: 70px 20px 0px 20px;
+    }
+
+    .img-main {
+        margin-bottom: 50px;
+    }
+
+    .bloco-2 {
+        height: 100% !important;
+        padding-bottom: 80px;
+    }
+
+    .bloco-3 {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .bloco-4 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        height: 100% !important;
+
+    }
+
+    h1.text-custom-bloco-4 {
+        font-size: 2.5rem;
+    }
+
+    .bloco-5 {
+        padding: 40px 20px 80px 20px;
+        text-align: center;
+    }
+
+    .bloco-6 {
+        padding: 80px 20px 80px 20px;
+    }
+
+    .img-partners {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    img.img-bloco-8 {
+        width: 100%;
+    }
+    .bloco-8 {
+        margin-bottom: -100px;
+    }
+
+
+
+}
+
+/*=====  End of Mobile Display  ======*/
