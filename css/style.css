@@ -12,6 +12,17 @@
 .btn-custom {
     background: #174363;
     border: #009AD0 2px solid;
+    border-radius: 5px;
+    height: 60px;
+    width: 40%;
+    color: white;
+    font-weight: 600;
+    box-shadow: 1px 1px 20px 2px #03a1d875;
+}
+.btn-custom:hover {
+    background: #226697;
+    border: #009AD0 2px solid;
+    border-radius: 5px;
     height: 60px;
     width: 40%;
     color: white;
@@ -20,7 +31,7 @@
 }
 
 /**bloco main**/
-.bg-bloco-main{
+.bloco-main{
     background-image: url(../img/bg_01.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,14 +40,58 @@
 }
 
 /**Bloco-02**/
-.bg-bloco-2{
+.bloco-2{
     background-image: url(../img/bg_02.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    height: 100vh;
+    height: 70vh;
 }
 
 .m-custom {
     margin-top: -6px;
 }
+
+/**Bloco-03**/
+.bloco-3 {
+    height: 100vh;
+    background: #0E1A2B;
+}
+.margin-bloco-5 {
+    padding-top: 120px;
+}
+
+/**Bloco-04**/
+.bloco-4{
+    background-color: #174363;
+}
+.margin-custombloco-4 {
+    margin-bottom: -24px;
+}
+
+/**bloco 5**/
+.bloco-5 {
+    height: 60vh;
+}
+.padding-blococustom-5 {
+    padding-top: 60px;
+}
+
+/**bloco 6**/
+.bloco-6{
+    height: 100vh;
+}
+
+/**bloco-7**/
+.bloco-7{
+    height: 20vh;
+}
+
+/**************/
+.videoyt{
+    width: 560px;
+    height: 315px;
+}
+
+
+@media screen {max900px}
