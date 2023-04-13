@@ -25,4 +25,7 @@ submit.addEventListener('submit', (e) => {
     }).then(
         message => alert(message)
     );
+    setInterval(() => {
+        window.location.href = 'https://lellyoliver.github.io/workshop-invest-us/';
+    }, 2000);
 });
