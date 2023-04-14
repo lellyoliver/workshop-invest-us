@@ -25,7 +25,7 @@ jobs:
   # Single deploy job since we're just deploying
   deploy:
     environment:
-      name: github-pages
+      name: workshop-invest-us
       url: https://lellyoliver.github.io/workshop-invest-us/
     runs-on: ubuntu-latest
     steps:
