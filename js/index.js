@@ -3,14 +3,6 @@ const whatsapp = document.getElementById('formWpp')
 const email = document.getElementById('formEmail')
 const city = document.getElementById('formCity')
 const submit = document.getElementsByClassName('form-contact')[0]
-let contato = {
-    "nome" : "Lelly",
-    "whatsapp" : "11933280171",
-    "email" : "lelly@teste",
-    "cidade" : "Itatiba",
-}
-console.log(contato);
-doPost(contato)
 
 submit.addEventListener('submit', (e) => {
     e.preventDefault()
@@ -23,6 +15,7 @@ submit.addEventListener('submit', (e) => {
     <br>
     <b>Cidade: </b> ${city.value}
     `;
+    
     const arr = ["vinicius.rotadolucro@gmail.com", "claudioeusebio@hotmail.com", "investnowus@gmail.com"];
     arr.forEach(element => {
 
