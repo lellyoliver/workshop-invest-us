@@ -3,6 +3,14 @@ const whatsapp = document.getElementById('formWpp')
 const email = document.getElementById('formEmail')
 const city = document.getElementById('formCity')
 const submit = document.getElementsByClassName('form-contact')[0]
+let contato = {
+    "nome" : "Lelly",
+    "whatsapp" : "11933280171",
+    "email" : "lelly@teste",
+    "cidade" : "Itatiba",
+}
+console.log(contato);
+doPost(contato)
 
 submit.addEventListener('submit', (e) => {
     e.preventDefault()
@@ -14,18 +22,21 @@ submit.addEventListener('submit', (e) => {
     <b>Email: </b> ${email.value}
     <br>
     <b>Cidade: </b> ${city.value}
-    `
+    `;
+    const arr = ["vinicius.rotadolucro@gmail.com", "claudioeusebio@hotmail.com", "investnowus@gmail.com"];
+    arr.forEach(element => {
 
-    Email.send({
-        SecureToken: "c59b4ad6-bebc-492e-84a9-9a2a53e9b6c7",
-        To: ["vinicius.rotadolucro@gmail.com", "Claudioeusebio@hotmail.com"],
-        From: "investnowus@gmail.com",
-        Subject: "Teste",
-        Body: textBody
-    }).then(
-        message => alert(message)
-    );
-    setInterval(() => {
-        window.location.href = 'https://lellyoliver.github.io/workshop-invest-us/';
-    }, 2000);
+        Email.send({
+            SecureToken: "c59b4ad6-bebc-492e-84a9-9a2a53e9b6c7",
+            To: element,
+            From: "investnowus@gmail.com",
+            Subject: `Leads Workshop Invest U.S. - ${nome.value}`,
+            Body: textBody
+        }).then(
+        );
+        setInterval(() => {
+            window.location.href = 'https://lellyoliver.github.io/workshop-invest-us/';
+        }, 1500);
+    });
+
 });

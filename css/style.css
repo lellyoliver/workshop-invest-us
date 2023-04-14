@@ -199,15 +199,33 @@ h1.text-custom-bloco-4 {
 img.img-bloco-8 {
     width: 60%;
 }
+
 .bloco-8 {
-    padding-top:80px;
+    padding-top: 80px;
     background: #0e1a2b;
     margin-bottom: -160px;
 }
 
 /*=============================================
-=                  video            =
+=            Bloco-9            =
 =============================================*/
+.bloco-9 {
+    padding-top: 40px;
+    padding-bottom: 120px;
+    background: #0E1A2B;
+}
+
+
+/*=============================================
+=            Bloco 10            =
+=============================================*/
+
+.bloco-10{
+    background: #174363;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 
 
 /*=============================================
@@ -249,9 +267,8 @@ img.img-bloco-8 {
     }
 
     /*=============================================
-    =            bloco             =
+    =            blocos             =
     =============================================*/
-
 
     .bloco-main {
         height: 100% !important;
@@ -298,11 +315,24 @@ img.img-bloco-8 {
         flex-direction: column;
         padding: 0px 20px;
     }
+
     img.img-bloco-8 {
         width: 100%;
     }
+
     .bloco-8 {
         margin-bottom: -100px;
+    }
+
+    .bloco-9 {
+        padding: 20px 20px 80px 20px;
+        text-align: center;
+        margin-top: -1px;
+    }
+
+    .bloco-10{
+        padding: 80px 20px 80px 20px;
+        text-align: center;
     }
 
 
