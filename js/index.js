@@ -30,7 +30,7 @@ submit.addEventListener('submit', (e) => {
         )
         .then(
             setInterval(() => {
-                window.location.href = 'https://workshop.damaterra.com.br/obrigado.html';
+                window.location.href = 'https://lellyoliver.github.io/workshop-invest-us/obrigado';
             }, 1500)
         );
     });
