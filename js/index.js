@@ -26,12 +26,11 @@ submit.addEventListener('submit', (e) => {
             Subject: `Leads Workshop Invest U.S. - ${nome.value}`,
             Body: textBody
         })
+        .then()
         .then(
-        )
-        .then(
-            setInterval(() => {
+            setTimeout(() => {
                 window.location.href = 'https://lellyoliver.github.io/workshop-invest-us/obrigado';
-            }, 1500)
+              }, 1500)
         );
     });
 
