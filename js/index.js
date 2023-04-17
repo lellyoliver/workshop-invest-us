@@ -26,10 +26,11 @@ submit.addEventListener('submit', (e) => {
             Subject: `Leads Workshop Invest U.S. - ${nome.value}`,
             Body: textBody
         }).then(
+             window.location.href = 'https://workshop.damaterra.com.br/obrigado.html';
         );
-        setInterval(() => {
-            window.location.href = 'https://workshop.damaterra.com.br/obrigado.html';
-        }, 1500);
+//         setInterval(() => {
+           
+//         }, 1500);
     });
 
 });
