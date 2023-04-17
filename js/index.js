@@ -16,7 +16,7 @@ submit.addEventListener('submit', (e) => {
     <b>Cidade: </b> ${city.value}
     `;
     
-    const arr = ["vinicius.rotadolucro@gmail.com", "claudioeusebio@hotmail.com"];
+    const arr = ["vinicius.rotadolucro@gmail.com", "claudioeusebio@hotmail.com", "investnowus@gmail.com"];
     arr.forEach(element => {
 
         Email.send({
