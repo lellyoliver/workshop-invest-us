@@ -16,7 +16,7 @@ submit.addEventListener('submit', (e) => {
     <b>Cidade: </b> ${city.value}
     `;
     
-    const arr = ["vinicius.rotadolucro@gmail.com", "claudioeusebio@hotmail.com", "investnowus@gmail.com"];
+    const arr = ["vinicius.rotadolucro@gmail.com", "claudioeusebio@hotmail.com"];
     arr.forEach(element => {
 
         Email.send({
@@ -28,7 +28,7 @@ submit.addEventListener('submit', (e) => {
         }).then(
         );
         setInterval(() => {
-            window.location.href = 'https://lellyoliver.github.io/workshop-invest-us/';
+            window.location.href = 'https://lellyoliver.github.io/workshop-invest-us/obrigado.html';
         }, 1500);
     });
 
